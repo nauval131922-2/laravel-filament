@@ -43,7 +43,6 @@ class ProductResource extends Resource
                     ->maxLength(255)
                     ->required()
                     ->label('Slug')
-                    ->unique()
                     ->placeholder('Contoh: produk-a'),
                 TextInput::make('price')
                     ->required()
